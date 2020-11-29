@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     var onBoardingViewPagerAdapter: OnBoardingViewPagerAdapter? = null
     var tabLayout: TabLayout? = null
     var onBoardingViewPager: ViewPager? = null
-    var next: Button? = null
+    var next: TextView? = null
     var position = 0
     var sharedPreferences: SharedPreferences? = null
 

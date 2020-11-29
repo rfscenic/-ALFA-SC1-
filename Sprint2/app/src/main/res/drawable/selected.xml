@@ -10,7 +10,7 @@
             android:useLevel="false"
             >
 
-            <solid android:color="@color/colorPrimaryDark"/>
+            <solid android:color="@color/colorTabSelected"/>
 
         </shape>
 

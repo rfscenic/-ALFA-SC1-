@@ -4,25 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
 
-    <androidx.viewpager2.widget.ViewPager2
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/screenPagerOnBoarding"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="675dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" >
+        tools:layout_editor_absoluteY="1dp">
 
 
-        <Button
-            android:id="@+id/button_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="@string/next"
-            android:textStyle="bold" />
-
-    </androidx.viewpager2.widget.ViewPager2>
+    </androidx.viewpager.widget.ViewPager>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -32,7 +39,6 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_indicator"
             android:layout_width="100dp"
-            app:tabBackground="@drawable/indicator_selector"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -41,10 +47,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:tabBackground="@drawable/indicator_selector"
             app:tabIndicatorHeight="0dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </RelativeLayout>
