@@ -25,4 +25,9 @@
     <string-array name="image_sejarah">
         <item>https://freeiconshop.com/wp-content/uploads/edd/book-open-flat.png</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_sejarah">Sejarah</string>
+    <string name="btn_kuliner">Kuliner</string>
+    <string name="btn_penginapan">Penginapan</string>
 </resources>

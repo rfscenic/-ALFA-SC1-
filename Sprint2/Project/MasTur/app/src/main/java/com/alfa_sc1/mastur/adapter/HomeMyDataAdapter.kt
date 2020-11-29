@@ -23,10 +23,6 @@ class HomeMyDataAdapter (private val listMyData: ArrayList<MyData>) :
                     .load(myData.photo)
                     .apply(RequestOptions().override(200, 200))
                     .into(img_item_photo)
-                Glide.with(itemView.context)
-                    .load(myData.image_sejarah)
-                    .apply(RequestOptions().override(200, 200))
-                    .into(image_sejarah)
             }
         }
     }

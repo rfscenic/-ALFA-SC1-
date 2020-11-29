@@ -4,9 +4,7 @@ import ProfilMyDataAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-//import com.alfa_sc1.mastur.adapter.NearbyMyDataAdapter
 import com.alfa_sc1.mastur.adapter.HomeMyDataAdapter
 import kotlinx.android.synthetic.main.activity_nav.*
 
@@ -45,15 +43,12 @@ class NavActivity : AppCompatActivity() {
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataImage = resources.getStringArray(R.array.data_image)
         val dataTextSejarah = resources.getStringArray(R.array.text_sejarah)
-        val dataImageSejarah = resources.getStringArray(R.array.image_sejarah)
         val listMyData = ArrayList<MyData>()
         for (position in dataTextSejarah.indices) {
             val myData = MyData(
                 dataName[position],
                 dataDescription[position],
-                dataImage[position],
-                dataImageSejarah[position],
-                dataTextSejarah[position]
+                dataImage[position]
             )
             listMyData.add(myData)
         }
