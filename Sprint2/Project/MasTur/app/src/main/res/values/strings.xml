@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">MasTur</string>
+    <string name="app_name">Mas Tur</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_nearby">Nearby</string>
+    <string name="nav_profil">Profil</string>
+    <string name="todo">TODO</string>
+    <string name="favorite">favorite</string>
+    <string name="share">share</string>
+    <string name="Todo">TODO</string>
+    <string name="img_item_photo">banner</string>
+    <string-array name="data_name">
+        <item>Wisata Pagubugan</item>
+    </string-array>
+    <string-array name="data_image">
+        <item>https://cdn1-production-images-kly.akamaized.net/ev2vZx5f6HuT1Z5XmQP2zJu2npc=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2752136/original/040557000_1552638463-HL.jpg</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>https://cdn1-production-images-kly.akamaized.net/ev2vZx5f6HuT1Z5XmQP2zJu2npc=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2752136/original/040557000_1552638463-HL.jpg</item>
+    </string-array>
+    <string-array name="text_sejarah">
+        <item>"Sejarah"</item>
+    </string-array>
+    <string-array name="image_sejarah">
+        <item>https://freeiconshop.com/wp-content/uploads/edd/book-open-flat.png</item>
+    </string-array>
 </resources>
