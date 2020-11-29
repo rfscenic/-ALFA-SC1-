@@ -1,4 +1,4 @@
-package com.puspawahyuningtias_18102137.mastur
+package com.alfa_sc1.mastur
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

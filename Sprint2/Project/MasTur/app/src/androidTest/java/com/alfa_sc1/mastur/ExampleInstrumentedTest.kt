@@ -1,4 +1,4 @@
-package com.puspawahyuningtias_18102137.mastur
+package com.alfa_sc1.mastur
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
