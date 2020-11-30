@@ -35,7 +35,7 @@ RecyclerView.Adapter<ListKulinerMyDataAdapter.ListViewHolder>() {
             with(itemView){
                 Glide.with(itemView.context)
                     .load(myData.photo_kuliner)
-                    .apply(RequestOptions().override(55, 55))
+                    .apply(RequestOptions().override(70, 70))
                     .into(img_item_photo_kuliner)
                 tv_item_name_kuliner.text = myData.name_kuliner
                 tv_item_location_kuliner.text = myData.location_kuliner
