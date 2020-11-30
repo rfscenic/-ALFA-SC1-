@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MasTur">
-        <activity android:name=".PenginapanActivity"></activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.MasTur.NoActionBar"></activity>
+        <activity android:name=".PenginapanActivity" />
         <activity android:name=".KulinerActivity" />
         <activity android:name=".SejarahActivity" />
         <activity android:name=".MainActivity">
