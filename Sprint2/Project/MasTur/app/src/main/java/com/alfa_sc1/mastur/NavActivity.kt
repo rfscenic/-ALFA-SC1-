@@ -16,7 +16,6 @@ class NavActivity : AppCompatActivity() {
         rv_mydata.setHasFixedSize(true)
         list.addAll(getListMyDatas())
         showRecyclerList()
-
         navigation.setOnNavigationItemReselectedListener {
             when (it.itemId) {
                 R.id.action_list -> {
