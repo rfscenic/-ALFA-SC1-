@@ -7,22 +7,22 @@ import com.alfa_sc1.mastur.adapter.ListSejarahMyDataAdapter
 import kotlinx.android.synthetic.main.activity_sejarah.*
 
 class SejarahActivity : AppCompatActivity() {
-    private val list = ArrayList<MyData>()
+    private val list = ArrayList<MyDataSejarah>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sejarah)
-        rv_mydata.setHasFixedSize(true)
+        rv_mydata_sejarah.setHasFixedSize(true)
         list.addAll(getListMyDatas())
         showRecyclerList()
     }
 
-    fun getListMyDatas(): ArrayList<MyData> {
-        val dataName = resources.getStringArray(R.array.data_name)
-        val dataDescription = resources.getStringArray(R.array.data_description)
+    fun getListMyDatas(): ArrayList<MyDataSejarah> {
+        val dataName = resources.getStringArray(R.array.data_name_sejarah)
+        val dataDescription = resources.getStringArray(R.array.data_description_sejarah)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
-        val listMyData = ArrayList<MyData>()
+        val listMyData = ArrayList<MyDataSejarah>()
         for (position in dataName.indices) {
-            val myData = MyData(
+            val myData = MyDataSejarah(
                 dataName[position],
                 dataDescription[position],
                 dataPhoto[position]
@@ -32,9 +32,9 @@ class SejarahActivity : AppCompatActivity() {
         return listMyData
     }
     private fun showRecyclerList() {
-        rv_mydata.layoutManager = LinearLayoutManager(this)
+        rv_mydata_sejarah.layoutManager = LinearLayoutManager(this)
         val listMyDataAdapter = ListSejarahMyDataAdapter(list, this@SejarahActivity)
-        rv_mydata.adapter = listMyDataAdapter
+        rv_mydata_sejarah.adapter = listMyDataAdapter
     }
 
 }

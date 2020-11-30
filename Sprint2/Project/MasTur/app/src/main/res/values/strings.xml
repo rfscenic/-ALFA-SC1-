@@ -11,10 +11,26 @@
     <string name="name">name</string>
     <string name="description">description</string>
 
-    <string-array name="data_name">
+    <string-array name="data_name_sejarah">
         <item>Wisata Pagubugan</item>
     </string-array>
-    <string-array name="data_description">
+    <string-array name="data_description_sejarah">
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
+        tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada
+        di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek
+        jogging, outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga
+        Grujugan Bengkok.Di Grujugan Bengkok ini Anda bisa mandi sepuasnya dan airnya sangat jernih, lho!
+        Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat
+        si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan
+        yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
+    </string-array>
+    <string-array name="data_photo_sejarah">
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+    </string-array>
+    <string-array name="data_name_kuliner">
+        <item>Wisata Pagubugan</item>
+    </string-array>
+    <string-array name="data_description_kuliner">
         <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
         tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada
         di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek

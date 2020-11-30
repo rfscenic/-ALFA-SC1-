@@ -4,26 +4,24 @@ import android.app.Activity
 import android.os.Bundle
 import android.os.Parcelable
 import com.google.android.material.appbar.CollapsingToolbarLayout
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import kotlinx.android.synthetic.main.activity_detail.*
-import kotlinx.android.synthetic.main.content_scrolling.*
+import kotlinx.android.synthetic.main.activity_detail_sejarah.*
+import kotlinx.android.synthetic.main.content_scrolling_sejarah.*
 
-class DetailActivity : AppCompatActivity() {
+class DetailSejarahActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+        setContentView(R.layout.activity_detail_sejarah)
         setSupportActionBar(findViewById(R.id.toolbar))
         findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = title
 
-        val myData by getParcelableExtra<MyData>(DetailActivity.EXTRA_MYDATA)
+        val myData by getParcelableExtra<MyDataSejarah>(EXTRA_MYDATA)
         supportActionBar?.title = myData?.name.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        tv_detail_description.text = myData?.description.toString()
+        tv_detail_description_sejarah.text = myData?.description.toString()
         Glide.with(this)
             .load(myData?.photo.toString())
             .apply(RequestOptions().override(700, 700))

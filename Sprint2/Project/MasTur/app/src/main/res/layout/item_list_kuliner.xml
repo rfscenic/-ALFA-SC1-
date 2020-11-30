@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img_item_photo_sejarah"
+        android:id="@+id/img_item_photo_kuliner"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginEnd="16dp"
@@ -14,10 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/img_item_photo_sejarah"
+        android:layout_toEndOf="@id/img_item_photo_kuliner"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/tv_item_name_sejarah"
+            android:id="@+id/tv_item_name_kuliner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -25,7 +25,7 @@
             android:textStyle="bold"
             tools:text="@string/name" />
         <TextView
-            android:id="@+id/tv_item_description_sejarah"
+            android:id="@+id/tv_item_description_kuliner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
