@@ -38,7 +38,8 @@ RecyclerView.Adapter<ListKulinerMyDataAdapter.ListViewHolder>() {
                     .apply(RequestOptions().override(55, 55))
                     .into(img_item_photo_kuliner)
                 tv_item_name_kuliner.text = myData.name_kuliner
-                tv_item_description_kuliner.text = myData.description_kuliner
+                tv_item_location_kuliner.text = myData.location_kuliner
+                tv_item_harga_kuliner.text = myData.harga
             }
         }
     }

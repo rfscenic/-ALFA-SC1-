@@ -16,9 +16,8 @@ class DetailKulinerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_kuliner)
         setSupportActionBar(findViewById(R.id.toolbar))
-        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout_kuliner).title = title
 
-        val myData by getParcelableExtra<MyDataKuliner>(EXTRA_MYDATA)
+        val myData by getParcelableExtra<MyDataKuliner>(DetailKulinerActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.name_kuliner.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         tv_detail_description_kuliner.text = myData?.description_kuliner.toString()

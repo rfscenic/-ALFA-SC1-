@@ -37,7 +37,7 @@ RecyclerView.Adapter<ListSejarahMyDataAdapter.ListViewHolder>() {
                     .apply(RequestOptions().override(55, 55))
                     .into(img_item_photo_sejarah)
                 tv_item_name_sejarah.text = myData.name
-                tv_item_description_sejarah.text = myData.description
+                tv_item_location_sejarah.text = myData.location
             }
         }
     }

@@ -19,12 +19,14 @@ class SejarahActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name_sejarah)
         val dataDescription = resources.getStringArray(R.array.data_description_sejarah)
         val dataPhoto = resources.getStringArray(R.array.data_photo_sejarah)
+        val dataLocation = resources.getStringArray(R.array.data_location_sejarah)
         val listMyData = ArrayList<MyDataSejarah>()
         for (position in dataName.indices) {
             val myData = MyDataSejarah(
                 dataName[position],
                 dataDescription[position],
-                dataPhoto[position]
+                dataPhoto[position],
+                dataLocation[position]
             )
             listMyData.add(myData)
         }

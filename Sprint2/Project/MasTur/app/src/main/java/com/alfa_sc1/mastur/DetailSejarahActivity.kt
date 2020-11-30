@@ -16,9 +16,8 @@ class DetailSejarahActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_sejarah)
         setSupportActionBar(findViewById(R.id.toolbar))
-        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = title
 
-        val myData by getParcelableExtra<MyDataSejarah>(EXTRA_MYDATA)
+        val myData by getParcelableExtra<MyDataSejarah>(DetailSejarahActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.name.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         tv_detail_description_sejarah.text = myData?.description.toString()
@@ -26,6 +25,7 @@ class DetailSejarahActivity : AppCompatActivity() {
             .load(myData?.photo.toString())
             .apply(RequestOptions().override(700, 700))
             .into(iv_detail_photo)
+
     }
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"
