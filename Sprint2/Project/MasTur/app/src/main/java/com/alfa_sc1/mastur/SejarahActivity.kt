@@ -15,11 +15,10 @@ class SejarahActivity : AppCompatActivity() {
         list.addAll(getListMyDatas())
         showRecyclerList()
     }
-
     fun getListMyDatas(): ArrayList<MyDataSejarah> {
         val dataName = resources.getStringArray(R.array.data_name_sejarah)
         val dataDescription = resources.getStringArray(R.array.data_description_sejarah)
-        val dataPhoto = resources.getStringArray(R.array.data_photo)
+        val dataPhoto = resources.getStringArray(R.array.data_photo_sejarah)
         val listMyData = ArrayList<MyDataSejarah>()
         for (position in dataName.indices) {
             val myData = MyDataSejarah(
@@ -36,5 +35,4 @@ class SejarahActivity : AppCompatActivity() {
         val listMyDataAdapter = ListSejarahMyDataAdapter(list, this@SejarahActivity)
         rv_mydata_sejarah.adapter = listMyDataAdapter
     }
-
 }

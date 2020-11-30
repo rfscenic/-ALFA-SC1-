@@ -5,7 +5,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class MyDataKuliner(
-    var name: String,
-    var description: String,
-    var photo: String
+    var name_kuliner: String,
+    var description_kuliner: String,
+    var photo_kuliner: String
 ) : Parcelable

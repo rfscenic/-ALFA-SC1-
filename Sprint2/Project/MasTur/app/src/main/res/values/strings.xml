@@ -3,7 +3,6 @@
     <string name="nav_home">Home</string>
     <string name="nav_nearby">Nearby</string>
     <string name="nav_profil">Profil</string>
-    <string name="todo">TODO</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btn_sejarah">Sejarah</string>
     <string name="btn_kuliner">Kuliner</string>
@@ -40,7 +39,7 @@
         si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan
         yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
     </string-array>
-    <string-array name="data_photo">
+    <string-array name="data_photo_kuliner">
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
     </string-array>
     <string name="title_activity_detail">ScrollingActivity</string>
@@ -134,4 +133,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_kuliner">ScrollingActivity</string>
+    <string name="todo">TODO</string>
 </resources>

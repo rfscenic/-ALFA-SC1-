@@ -7,25 +7,25 @@ import com.google.android.material.appbar.CollapsingToolbarLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import kotlinx.android.synthetic.main.activity_detail_sejarah.*
-import kotlinx.android.synthetic.main.content_scrolling_sejarah.*
+import kotlinx.android.synthetic.main.activity_detail_kuliner.*
+import kotlinx.android.synthetic.main.content_scrolling_kuliner.*
 
-class DetailSejarahActivity : AppCompatActivity() {
+class DetailKulinerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sejarah)
+        setContentView(R.layout.activity_detail_kuliner)
         setSupportActionBar(findViewById(R.id.toolbar))
-        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = title
+        findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout_kuliner).title = title
 
-        val myData by getParcelableExtra<MyDataSejarah>(EXTRA_MYDATA)
-        supportActionBar?.title = myData?.name.toString()
+        val myData by getParcelableExtra<MyDataKuliner>(EXTRA_MYDATA)
+        supportActionBar?.title = myData?.name_kuliner.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        tv_detail_description_sejarah.text = myData?.description.toString()
+        tv_detail_description_kuliner.text = myData?.description_kuliner.toString()
         Glide.with(this)
-            .load(myData?.photo.toString())
-            .apply(RequestOptions().override(700, 700))
-            .into(iv_detail_photo)
+            .load(myData?.photo_kuliner.toString())
+            .apply(RequestOptions().override(700,700))
+            .into(iv_detail_photo_kuliner)
     }
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"
