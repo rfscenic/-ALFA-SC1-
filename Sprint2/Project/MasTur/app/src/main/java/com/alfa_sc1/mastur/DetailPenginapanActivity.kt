@@ -6,25 +6,24 @@ import android.os.Parcelable
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import kotlinx.android.synthetic.main.activity_detail_sejarah.*
-import kotlinx.android.synthetic.main.content_scrolling_sejarah.*
+import kotlinx.android.synthetic.main.activity_detail_penginapan.*
+import kotlinx.android.synthetic.main.content_scrolling_penginapan.*
 
-class DetailSejarahActivity : AppCompatActivity() {
+class DetailPenginapanActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_sejarah)
+        setContentView(R.layout.activity_detail_penginapan)
         setSupportActionBar(findViewById(R.id.toolbar))
 
-        val myData by getParcelableExtra<MyDataSejarah>(DetailSejarahActivity.EXTRA_MYDATA)
-        supportActionBar?.title = myData?.name.toString()
+        val myData by getParcelableExtra<MyDataPenginapan>(DetailPenginapanActivity.EXTRA_MYDATA)
+        supportActionBar?.title = myData?.name_penginapan.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        tv_detail_description_sejarah.text = myData?.description.toString()
+        tv_detail_description_penginapan.text = myData?.description_penginapan.toString()
         Glide.with(this)
-            .load(myData?.photo.toString())
+            .load(myData?.photo_penginapan.toString())
             .apply(RequestOptions().override(700, 700))
-            .into(iv_detail_photo)
-
+            .into(iv_detail_photo_penginapan)
     }
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"

@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MasTur">
         <activity
+            android:name=".DetailPenginapanActivity"
+            android:label="@string/title_activity_detail_penginapan"
+            android:theme="@style/Theme.MasTur.NoActionBar" />
+        <activity
             android:name=".DetailKulinerActivity"
             android:label="@string/title_activity_detail_kuliner"
             android:theme="@style/Theme.MasTur.NoActionBar" />

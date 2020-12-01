@@ -61,6 +61,27 @@
     </string-array>
 
 
+    <string-array name="data_name_penginapan">
+        <item>Wisata Pagubugan</item>
+    </string-array>
+    <string-array name="data_description_penginapan">
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
+        tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada
+        di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek
+        jogging, outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga
+        Grujugan Bengkok.Di Grujugan Bengkok ini Anda bisa mandi sepuasnya dan airnya sangat jernih, lho!
+        Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat
+        si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan
+        yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
+    </string-array>
+    <string-array name="data_location_penginapan">
+        <item>Jl. Suka suka</item>
+    </string-array>
+    <string-array name="data_photo_penginapan">
+        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
+    </string-array>
+
+
     <string name="title_activity_detail">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -151,4 +172,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="title_activity_detail_penginapan">ScrollingActivity</string>
 </resources>
