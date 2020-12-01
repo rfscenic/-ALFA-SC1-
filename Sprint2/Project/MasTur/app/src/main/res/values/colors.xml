@@ -10,4 +10,6 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#519872</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorTabSelected">#ffffff</color>
+    <color name="colorTabUnselected">#000000</color>
 </resources>
