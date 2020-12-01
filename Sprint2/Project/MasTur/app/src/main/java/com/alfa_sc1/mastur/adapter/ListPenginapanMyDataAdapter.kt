@@ -38,6 +38,7 @@ class ListPenginapanMyDataAdapter (private val listMyDataPenginapan: ArrayList<M
                     .into(img_item_photo_penginapan)
                 tv_item_name_penginapan.text = myData.name_penginapan
                 tv_item_location_penginapan.text = myData.location_penginapan
+                tv_item_harga_penginapan.text = myData.harga_penginapan
             }
         }
     }

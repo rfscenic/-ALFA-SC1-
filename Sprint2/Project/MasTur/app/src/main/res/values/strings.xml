@@ -80,6 +80,9 @@
     <string-array name="data_photo_penginapan">
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
     </string-array>
+    <string-array name="data_harga_penginapan">
+        <item>Jl. Suka suka</item>
+    </string-array>
 
 
     <string name="title_activity_detail">ScrollingActivity</string>
@@ -173,4 +176,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_detail_penginapan">ScrollingActivity</string>
+    <string name="harga_penginapan">harga penginapan</string>
+    <string name="location_penginapan">harga penginapan</string>
 </resources>

@@ -39,7 +39,7 @@ RecyclerView.Adapter<ListKulinerMyDataAdapter.ListViewHolder>() {
                     .into(img_item_photo_kuliner)
                 tv_item_name_kuliner.text = myData.name_kuliner
                 tv_item_location_kuliner.text = myData.location_kuliner
-                tv_item_harga_kuliner.text = myData.harga
+                tv_item_harga_kuliner.text = myData.harga_kuliner
             }
         }
     }

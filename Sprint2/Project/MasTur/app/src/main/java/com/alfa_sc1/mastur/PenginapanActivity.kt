@@ -20,13 +20,15 @@ class PenginapanActivity : AppCompatActivity() {
         val dataDescription = resources.getStringArray(R.array.data_description_penginapan)
         val dataPhoto = resources.getStringArray(R.array.data_photo_penginapan)
         val dataLocation = resources.getStringArray(R.array.data_location_penginapan)
+        val dataHarga = resources.getStringArray(R.array.data_harga_penginapan)
         val listMyData = ArrayList<MyDataPenginapan>()
         for (position in dataName.indices) {
             val myData = MyDataPenginapan(
                 dataName[position],
                 dataDescription[position],
                 dataPhoto[position],
-                dataLocation[position]
+                dataLocation[position],
+                dataHarga[position]
             )
             listMyData.add(myData)
         }
