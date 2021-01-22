@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Mas Tur</string>
     <string name="next">Next</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="kuliner">Kuliner</string>
+    <string name="penginapan">Penginapan</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

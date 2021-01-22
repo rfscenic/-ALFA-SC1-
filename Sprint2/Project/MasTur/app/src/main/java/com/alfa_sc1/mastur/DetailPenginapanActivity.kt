@@ -17,7 +17,7 @@ class DetailPenginapanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_penginapan)
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setSupportActionBar(findViewById(R.id.toolbar_penginapan))
 
         val myData by getParcelableExtra<MyDataPenginapan>(DetailPenginapanActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.name_penginapan.toString()
@@ -35,6 +35,9 @@ class DetailPenginapanActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+        setSupportActionBar(findViewById(R.id.toolbar_penginapan))
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"

@@ -24,6 +24,8 @@ class DetailSejarahActivity : AppCompatActivity() {
             .load(myData?.photo.toString())
             .apply(RequestOptions().override(700, 700))
             .into(iv_detail_photo)
+        setSupportActionBar(findViewById(R.id.toolbar))
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
     }
     companion object {
