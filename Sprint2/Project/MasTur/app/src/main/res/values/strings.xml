@@ -252,4 +252,6 @@ FixOn Capsule Hotel dekat dengan Satria Stadium, Pendopo Si Panji, Alun-Alun Pur
     <string name="harga_penginapan">harga penginapan</string>
     <string name="location_penginapan">harga penginapan</string>
     <string name="title_activity_maps">Map</string>
+    <string name="settings">settings</string>
+    <string name="notification">Notification</string>
 </resources>
