@@ -22,13 +22,16 @@
         android:layout_width="273dp"
         android:layout_height="37dp"
         android:layout_marginTop="4dp"
+        android:autofillHints=""
         android:background="@drawable/login_input_text"
         android:ems="10"
         android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        android:autofillHints="" />
+        tools:ignore="RtlSymmetry" />
 
     <Button
         android:id="@+id/button2"
@@ -58,13 +61,15 @@
         android:layout_width="273dp"
         android:layout_height="37dp"
         android:layout_marginTop="4dp"
+        android:autofillHints=""
         android:background="@drawable/login_input_text"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/tvTextAccount"
