@@ -55,12 +55,7 @@ class LoginFragment : Fragment(), View.OnClickListener {
         binding.btnPhone.setOnClickListener(this)
 
         auth = Firebase.auth
-//        btn_frg_login.setOnClickListener {
-//            val mIntent = Intent(activity, MainActivity::class.java)
-//            startActivity(mIntent)
-//        }
     }
-
     override fun onClick(v: View?) {
         when(v?.id) {
             R.id.btn_frg_login -> {
