@@ -15,10 +15,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/inputFrgEmail" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/inputFrgPassword"
         android:layout_width="273dp"
         android:layout_height="37dp"
         android:layout_marginTop="4dp"
@@ -34,7 +34,7 @@
         tools:ignore="RtlSymmetry" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_frg_login"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/inputFrgPassword" />
 
     <TextView
         android:id="@+id/textView5"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/inputFrgEmail"
         android:layout_width="273dp"
         android:layout_height="37dp"
         android:layout_marginTop="4dp"
@@ -78,9 +78,9 @@
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="@string/don_t_have_an_account"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_frg_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_frg_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_frg_login" />
 
     <TextView
         android:id="@+id/tvConneting"
