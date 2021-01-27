@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -35,10 +36,8 @@ class ProfilFragment : Fragment() {
         return when (item.itemId) {
             R.id.action_settings -> {
                 // navigate to settings screen
-                true
-            }
-            R.id.action_notification -> {
-                // navigate to settings screen
+                val mIntent = Intent(activity, SettingActivity::class.java)
+                startActivity(mIntent)
                 true
             }
             else -> super.onOptionsItemSelected(item)
@@ -52,7 +51,6 @@ class ProfilFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_profil, container, false)
     }
-
     companion object {
         /**
          * Use this factory method to create a new instance of
