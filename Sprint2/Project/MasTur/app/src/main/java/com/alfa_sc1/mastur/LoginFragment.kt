@@ -49,11 +49,6 @@ class LoginFragment : Fragment(), View.OnClickListener {
         binding.btnFrgLogin.setOnClickListener(this)
         binding.btnEmail.setOnClickListener(this)
         binding.btnPhone.setOnClickListener(this)
-
-        btn_frg_login.setOnClickListener {
-            val mIntent = Intent(activity, MainActivity::class.java)
-            startActivity(mIntent)
-        }
     }
 
     override fun onClick(v: View?) {
