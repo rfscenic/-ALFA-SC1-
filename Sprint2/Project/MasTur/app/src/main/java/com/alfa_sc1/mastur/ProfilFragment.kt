@@ -80,15 +80,18 @@ class ProfilFragment : Fragment(), View.OnClickListener {
             val photoUrl = currentUser.photoUrl
             val emailVerified = currentUser.isEmailVerified
             val uid = currentUser.uid
+
             binding.tvName.text = name
             if(TextUtils.isEmpty(name)){
                 binding.tvName.text = "No Name"
+            } else {
+                binding.tvName.text = name
             }
+
             binding.tvEmail.text = email
             if(photoUrl !== null){
                 Glide.with(this)
                     .load(photoUrl)
-                    .apply(RequestOptions().override(200, 200))
                     .into(binding.ivImage)
             }
     //            for (profile in it.providerData) {
