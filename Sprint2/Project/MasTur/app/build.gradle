@@ -56,4 +56,8 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation platform('com.google.firebase:firebase-bom:26.2.0')
+
+    // Tampil Foto
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
 }

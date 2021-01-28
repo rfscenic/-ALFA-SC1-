@@ -106,6 +106,22 @@ class DaftarFragment : Fragment(), View.OnClickListener {
             binding.editTextTextEmailAddress.error = null
         }
 
+        val personName = binding.editTextTextPersonName.text.toString()
+        if (TextUtils.isEmpty(email)) {
+            binding.editTextTextPersonName.error = "Required."
+            valid = false
+        } else {
+            binding.editTextTextPersonName.error = null
+        }
+
+        val phoneNumber = binding.editTextPhone.text.toString()
+        if (TextUtils.isEmpty(email)) {
+            binding.editTextPhone.error = "Required."
+            valid = false
+        } else {
+            binding.editTextPhone.error = null
+        }
+
         val password = binding.editTextTextPassword.text.toString()
         if (TextUtils.isEmpty(password)) {
             binding.editTextTextPassword.error = "Required."
