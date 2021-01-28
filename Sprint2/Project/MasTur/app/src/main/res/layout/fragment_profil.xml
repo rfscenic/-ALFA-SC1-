@@ -8,7 +8,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circleImageView"
+        android:id="@+id/ivImage"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_gravity="center|top"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -30,7 +30,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+        app:layout_constraintTop_toBottomOf="@+id/ivImage" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -42,7 +42,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
@@ -52,6 +52,7 @@
             android:contentDescription="@string/todo" />
 
         <TextView
+            android:id="@+id/tvEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -87,6 +88,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnLogOut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
