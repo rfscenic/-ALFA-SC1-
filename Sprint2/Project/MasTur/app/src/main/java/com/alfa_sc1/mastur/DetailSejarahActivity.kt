@@ -17,11 +17,11 @@ class DetailSejarahActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         val myData by getParcelableExtra<MyDataSejarah>(DetailSejarahActivity.EXTRA_MYDATA)
-        supportActionBar?.title = myData?.name.toString()
+        supportActionBar?.title = myData?.nama.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         tv_detail_description_sejarah.text = myData?.description.toString()
         Glide.with(this)
-            .load(myData?.photo.toString())
+            .load(myData?.url.toString())
             .apply(RequestOptions().override(700, 700))
             .into(iv_detail_photo)
         setSupportActionBar(findViewById(R.id.toolbar))
