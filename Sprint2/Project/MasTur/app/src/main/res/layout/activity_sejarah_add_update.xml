@@ -39,10 +39,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp">
             <EditText
-                android:id="@+id/edt_descrription"
+                android:id="@+id/edt_location"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/description"
+                android:hint="@string/location"
                 android:inputType="textCapSentences"
                 android:maxLines="1" />
         </com.google.android.material.textfield.TextInputLayout>

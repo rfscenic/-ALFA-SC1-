@@ -34,6 +34,7 @@ RecyclerView.Adapter<ListSejarahMyDataAdapter.ListViewHolder>() {
         private val binding = ItemListSejarahBinding.bind(itemView)
         fun bind(myData: MyDataSejarah, position: Int) {
             binding.tvItemNameSejarah.text = myData.nama
+            binding.tvItemLocationSejarah.text = myData.location
             Glide.with(itemView.context)
                 .load(myData.url)
                 .apply(RequestOptions().override(55, 55))

@@ -44,7 +44,7 @@ class SejarahAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
             btnTitle = "Update"
             myDataSejarah?.let {
                 binding.edtNama.setText(it.nama)
-                binding.edtDescrription.setText(it.description)
+                binding.edtLocation.setText(it.location)
                 binding.edtUrl.setText(it.url)
             }!!
         } else {
@@ -61,7 +61,7 @@ class SejarahAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
     override fun onClick(v: View?) {
         if (v?.id == R.id.btn_submit) {
             val title = binding.edtNama.text.toString().trim()
-            val description = binding.edtDescrription.text.toString().trim()
+            val location = binding.edtLocation.text.toString().trim()
             val photo = binding.edtUrl.text.toString().trim()
             if (title.isEmpty()) {
                 binding.edtNama.error = "Field can not be blank"
@@ -72,6 +72,7 @@ class SejarahAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
                 val user = hashMapOf(
                     "uid" to currentUser?.uid,
                     "nama" to title,
+                    "location" to location,
                     "url" to photo
                 )
                 firestore.collection("MyDataSejarah").document(myDataSejarah?.id.toString())
@@ -88,6 +89,7 @@ class SejarahAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
                 val user = hashMapOf(
                     "uid" to currentUser?.uid,
                     "nama" to title,
+                    "location" to location,
                     "url" to photo
                 )
                 firestore.collection("MyDataSejarah")

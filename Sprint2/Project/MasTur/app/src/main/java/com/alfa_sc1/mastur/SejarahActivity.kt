@@ -68,8 +68,9 @@ class SejarahActivity : AppCompatActivity() {
                     for (document in result) {
                         val id = document.id
                         val name = document.get("nama").toString()
+                        val location = document.get("location").toString()
                         val url = document.get("url").toString()
-                        sejarahList.add(MyDataSejarah(id, name ,url))
+                        sejarahList.add(MyDataSejarah(id, name, location ,url))
                     }
                     if (sejarahList.size > 0) {
                         binding.rvMydataSejarah.adapter = adapter

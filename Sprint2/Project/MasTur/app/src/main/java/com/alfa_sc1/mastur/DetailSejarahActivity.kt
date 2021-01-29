@@ -19,7 +19,7 @@ class DetailSejarahActivity : AppCompatActivity() {
         val myData by getParcelableExtra<MyDataSejarah>(DetailSejarahActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.nama.toString()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        tv_detail_description_sejarah.text = myData?.description.toString()
+//        tv_detail_description_sejarah.text = myData?.description.toString()
         Glide.with(this)
             .load(myData?.url.toString())
             .apply(RequestOptions().override(700, 700))
