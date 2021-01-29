@@ -1,13 +1,21 @@
 package com.alfa_sc1.mastur
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.alfa_sc1.mastur.databinding.ActivitySejarahAddUpdateBinding
+import com.alfa_sc1.mastur.helper.ALERT_DIALOG_CLOSE
+import com.alfa_sc1.mastur.helper.ALERT_DIALOG_DELETE
 import com.alfa_sc1.mastur.helper.EXTRA_POSITION
 import com.alfa_sc1.mastur.helper.EXTRA_QUOTE
 import com.alfa_sc1.mastur.helper.RESULT_ADD
+import com.alfa_sc1.mastur.helper.RESULT_DELETE
 import com.alfa_sc1.mastur.helper.RESULT_UPDATE
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -106,5 +114,61 @@ class SejarahAddUpdateActivity : AppCompatActivity() , View.OnClickListener {
                     }
             }
         }
+    }
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        if (isEdit) {
+            menuInflater.inflate(R.menu.menu_form, menu)
+        }
+        return super.onCreateOptionsMenu(menu)
+        return true
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_delete -> showAlertDialog(ALERT_DIALOG_DELETE)
+            android.R.id.home -> showAlertDialog(ALERT_DIALOG_CLOSE)
+        }
+        return super.onOptionsItemSelected(item)
+        return true
+    }
+
+    private fun showAlertDialog(type: Int) {
+        val isDialogClose = type == ALERT_DIALOG_CLOSE
+        val dialogTitle: String
+        val dialogMessage: String
+        if (isDialogClose) {
+            dialogTitle = "Batal"
+            dialogMessage = "Apakah anda ingin membatalkan perubahan pada form?"
+        } else {
+            dialogMessage = "Apakah anda yakin ingin menghapus item ini?"
+            dialogTitle = "Hapus Sejarah"
+        }
+        val alertDialogBuilder = AlertDialog.Builder(this)
+        alertDialogBuilder.setTitle(dialogTitle)
+        alertDialogBuilder
+            .setMessage(dialogMessage)
+            .setCancelable(false)
+            .setPositiveButton("Ya") { _, _ ->
+                if (isDialogClose) {
+                    finish()
+                } else {
+                    firestore.collection("MyDataSejarah").document(myDataSejarah?.id.toString())
+                        .delete()
+                        .addOnSuccessListener {
+                            Log.d("delete", "DocumentSnapshot successfully deleted!"+myDataSejarah?.id.toString())
+                            val intent = Intent()
+                            intent.putExtra(EXTRA_POSITION, position)
+                            setResult(RESULT_DELETE, intent)
+                            finish()
+                        }
+                        .addOnFailureListener { e ->
+                            Log.w("a", "Error deleting document", e)
+                            Toast.makeText(this@SejarahAddUpdateActivity, "Gagal menghapus data", Toast.LENGTH_SHORT).show()
+                        }
+
+                }
+            }
+            .setNegativeButton("Tidak") { dialog, _ -> dialog.cancel() }
+        val alertDialog = alertDialogBuilder.create()
+        alertDialog.show()
     }
 }
