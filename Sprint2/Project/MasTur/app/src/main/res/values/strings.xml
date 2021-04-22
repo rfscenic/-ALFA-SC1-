@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Mas Tur</string>
+    <string name="next">Next</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nav_home">Home</string>
+    <string name="nav_nearby">Nearby</string>
+    <string name="nav_profil">Profil</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_sejarah">Sejarah</string>
+    <string name="btn_kuliner">Kuliner</string>
+    <string name="btn_penginapan">Penginapan</string>
+    <string name="name">name</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_kuliner">ScrollingActivity</string>
+    <string name="todo">TODO</string>
+    <string name="harga_kuliner">Harga Kuliner</string>
+    <string name="location_kuliner">Location Kuliner</string>
+
+    <string-array name="data_name_sejarah">
+        <item>Banyumas</item>
+        <item>Purwokerto</item>
+        <item>Baturraden</item>
+    </string-array>
+    <string-array name="data_description_sejarah">
+        <item>Menurut cerita rakyat mengenai Sejarah Banyumas, asal mula  nama Banyumas ada beberapa versi cerita. Diantaranya yaitu:Kayu Emas yang Terseret Arus Sungai
+Sungai Serayu
+Ada yang menceritakan bahwa dahulu ketika rakyat sedang proses melakukan pembangunan pemerintahan, ada kejadian yang tidak diduga.
+Yaitu ada kayu besar (Pohon besar) Terseret arus air di sungai besar, konon sungai tersebut adalah Sungai Serayu. Kayu itu bernama Kayu Emas (Pohon Emas).
+Dan kayu pohon tersebut diceritakan berasal dari Desa Karang Jambu, Kecamata Kecobong, Kabupaten Purbalingga.
+Dan pohon yang besar tersebut, berhenti di sekitar lokasi yang sedang dilakukan pembangunan. Kejadian itu mengambil perhatian Adipati Mrapat (Pemimpin rakyat pada zaman dahulu), dan akhirnya menyuruh rakyatnya untuk mengambil kayu tersebut.
+Dan kemudian mempunyai keputusan untuk menjadikan kayu pohon tersebut sebagai saka guru Balai si Panji (Tiang utama). Karena kayu pohon itu bernama Pohon Emas, yang ditemukan di arus air makan Adipati Mrapat menamai daerah yang sedang dibangun dengan nama Banyumas.
+Banyu adalah Bahasa Jawa dari air, dan mas berasal dari nama Pohon Emas yang terseret arus air Sungai Serayu tadi, digabungkan jadi kata Banyumas.
+
+Sungai Emas
+Diceritakan nama Banyumas di ambil dari kisah Adipati Mrapat yang sedang melakukan perjalanan bersama prajuritnya dari Wirasaba. Di dalam perjalanannya Adipati Mrapat melewati sungai.
+Nama Sungai tersebut adalah Sungai Mas, dan Adipati Mrapat memutuskan berhenti untuk istirahat dan membuat pesanggrahan, sampai akhirnya Adipati Mrapat menamainya dengan nama Banyumas.
+Berharganya Air Seperti Perhiasan Emas Air cerita rakyat tentang seorang tamu yang menunggang kuda. Pada waktu itu nama daerahnya adalah Slarong. Ceritanya tamu tersebut bertingkah laku aneh di daerah tersebut, dan membuat warga resah dengan tingkah lakunya.
+Namun, entah kenapa bersamaan saat itu daerah tersebut mengalami kemarau panjang. Sampai aliran sungai yang menjadi sumber air pun mengalami kekeringan.
+Akhirnya Pemimpin Daerah tersebut mencurigai tingkah laku orang tersebut dan mengambil keputusan untuk membelenggu tamu tersebut.
+Dan entah kebetulan atau bukan bersamaan dengan dibelenggunya tamu itu, hujan turun lebat. Warga daerah tersebut pun sangat senang sekali, sampai menganggap banyu berharga seperti emas.
+Dan akhirnya daerah tersebut dinamai Banyumas. Dan tamu yang meresahkan tadi, karena dianggap membuat warga jadi resah, Adipati Mrapat pun mengambil keputusan untuk menyuruh pergi tamu tersebut.</item>
+        <item>Purwokerto merupakan ibu kota Kabupaten Banyumas, Jawa Tengah, Indonesia. Yang letaknya di selatan Gunung Slamet, salah satu gunung berapi yang masih aktif di pulau Jawa, secara geografi Purwokerto terletak di koordinat 7°26′LU 109°14′BT.
+Selain menjadi pusat pemerintahan Purwokerto berbatasan dengan Sokaraja. Jumlah penduduknya 292.782 jiwa pada tahun 2014. Berbagai julukan disandang kota ini. Mulai dari kota wisata, kota kripik, kota transit, kota pendidikan sampai kota pensiunan karena begitu banyaknya pejabat-pejabat negara yang pensiun dan akhirnya menetap di kota ini.
+Di kota ini pula terdapat museum BRI, karena bank pertama kali berdiri ada disini dan pendiri bank ini adalah Raden Bei Aria Wirjaatmadja putra daerah Purwokerto.
+Awal-awal abad XX. Pada suatu kota. Saat itu, babak baru dalam tata ruang tengah memasuki kota tersebut. Setiap jalan terlihat lebar. Pepohonan hijau nan rindang meneduhi para pejalan kaki ketika melintas di area pedestrian. Jalan-jalan terlihat asri. Sulit untuk membedakan antara jalan utama dengan jalan penghubung. Di depan gedung karesidenan, terdapat sebuah taman kota. Taman Merdeka, nama taman itu.
+Sebuah taman untuk tempat warga kota melepas penat setelah kesibukan. Kota terasa nyaman bagi warganya. Inilah suasana Kota Purwokerto dengan perencanaan tata ruang yang baru. Suatu masa ketika Pulau Jawa mulai berkembang.
+Saat itu, kota-kota di Pulau Jawa tengah mengalami lonjakan penduduk. Kota-kota meledak. Hampir di setiap kota, pertambahan penduduk sekitar 10 kali sampai 20 kali lipat. Kota-kota, mengalami masalah akut tentang tata ruang. Pemerintah kolonial Belanda kelimpungan menghadapi persoalan itu. Sibuk mencari model pembangunan bagi kota-kota di Jawa.
+Saat kesibukan meliputi Pemerintah Kolonial Belanda, Herman Thomas Kartsen menjejakkan kaki di Semarang pada 1914. Kota yang juga tengah mengalami persoalan pertambahan penduduk. Dalam catatan W.F. Wertheim melalui buku Masyarakat Indonesia dalam Transisi, pertambahan penduduk di kota itu hampir mencapai seratus persen. Di kota tersebut, Kartsen menemui Henri Maclaine Pont. Pont adalah teman Kartsen semasa kuliah di Insitut Teknologi Delf, Amsterdam, Belanda.
+Di Semarang, Pont mendirikan biro arsistek. Melalui Pont, Kartsen mendapat banyak informasi tentang keadaan Semarang dan kota lainnya. Kedatangan Kartsen di Semarang adalah guna merancang Kota Semarang dan kota-kota di Pulau Jawa.terdapat pabrik gula kalibagor.</item>
+        <item>Baturraden merupakan salah satu obyek wisata andalan di Kabupaten Banyumas, Jawa Tengah. Sejak tahun 1928, Baturraden dikenal sebagai obyek wisata pegunungan. Pengunjung bisa menikmati keindahan pemandangan alam dan udara pegunungan yang sejuk dengan suhu antara 18°C-25°C. Dalam kondisi cuaca yang bagus dan cerah, pemandangan Kota Purwokerto, Nusakambangan, dan pantai Cilacap dapat terlihat dengan jelas dari puncak Baturraden.
+Nama Baturraden berasal dari dua kata (bahasa Jawa), yaitu Batur (bukit, tanah, teman, pembantu) dan Raden (bangsawan). Bila digabung, kata “Baturraden” dapat bermakna: tanah yang datar atau tanah yang indah. Ada dua versi sejarah Batu Raden, yaitu versi Syekh Maulana Maghribi dan versi Kadipaten Kutaliman. Menurut versi yang pertama, Syekh Maulana Maghribi, Pangeran Rum yang berasal dari Turki dan beragama Islam, pernah merasa penasaran dengan cahaya terang misterius yang menjulang ke angkasa dan bersinar di bagian timur. Sang Pangeran kemudian mencari asal cahaya tersebut. Singkat cerita, setelah melakukan pendakian hingga ke puncak sebuah gunung, Sang Pangeran melihat ada seorang pertapa Buddha yang bersandar pada sebuah pohon jambu yang memancarkan sinar cahaya ke atas. Lokasi ini kemudian dikenal dengan sebutan Baturraden. Sedangkan menurut versi kedua, cerita Baturraden terkait dengan kisah cinta antara anak perempuan Adipati Kutaliman dengan pembantunya yang menjaga kuda.</item>
+    </string-array>
+    <string-array name="data_location_sejarah">
+        <item>Banyumas, Jawa Tengah</item>
+        <item>Purwokerto, Banyumas</item>
+        <item>Dusun III Kalipagu, Ketenger, Kec. Baturaden, Kabupaten Banyumas, Jawa Tengah</item>
+    </string-array>
+    <string-array name="data_photo_sejarah">
+        <item>http://3.bp.blogspot.com/-pzjtKy12Ox4/Ty0Bt6S5aRI/AAAAAAAAASA/NXYwFiTgucA/s320/Logo+Kabupaten+Banyumas.jpg</item>
+        <item>https://initu.id/wp-content/uploads/2018/05/Sejarah-Wisata-Kuliner-Purwokerto-Ibu-Kota-Banyumas.jpg</item>
+        <item>https://cdns.klimg.com/merdeka.com/i/w/news/2015/12/27/642689/540x270/isi-hari-libur-ribuan-wisatawan-serbu-lokawisata-baturaden.jpg</item>
+    </string-array>
+
+
+    <string-array name="data_name_kuliner">
+        <item>Tempe Mendoan</item>
+        <item>Getuk Sokaraja</item>
+        <item>Nopia</item>
+    </string-array>
+    <string-array name="data_location_kuliner">
+        <item>Sekitar banyumas</item>
+        <item>Sokaraja, Banyumas</item>
+        <item>Banyumas</item>
+    </string-array>
+    <string-array name="data_harga_kuliner">
+        <item>Rp. 1000</item>
+        <item>Rp. 30.000/kg</item>
+        <item>Rp. 20.000/kg</item>
+    </string-array>
+    <string-array name="data_photo_kuliner">
+        <item>https://assets-a1.kompasiana.com/items/album/2017/01/30/capture-png-588ec32c5a7b611b07b333f7.png</item>
+        <item>https://cdn.idntimes.com/content-images/community/2020/04/66453341-1280850608743908-8841273118929453056-n-0a93a9c021670d2e276e80fa9c1a71d4_600x400.jpg</item>
+        <item>https://www.gotravelly.com/blog/wp-content/uploads/2018/05/nopia-khas-banyumas.jpg</item>
+    </string-array>
+    <string-array name="data_description_kuliner">
+        <item>Kuliner yang banyak digemari oleh wisatawan dan penduduk lokal di Banyumas adalah tempe mendoan.
+Tempe mendoan adalah tempe yang digoreng garing dan memiliki tekstur super renyah.
+Satu keunikan tempe mendoan adalah sengaja digoreng setengah dan telah menjadi ciri khasnya.
+Artikel ini telah tayang di Tribuntravel.com dengan judul Mengenal Sejarah Tempe Mendoan, Kuliner Khas Banyumas yang Banyak Digemari</item>
+        <item>Getuk Goreng adalah cemilan asli khas Sokaraja, Banyumas yang sudah cukup populer dimasyarakat dalam kota maupun luar kota.
+Gethuk goreng terbuat dari bahan dasar singkong atau biasanya masyarakat Banyumas menyebutnya dengan sebutan “boled”. Dengan tambahan gula jawa membuat getuk goreng ini menjadi manis dan gurih.
+Sedikit cerita sejarah penting tentang getuk goreng.
+Getuk goreng ditemukan pada tahun 1918 secara tidak sengaja oleh bapak Sanpringad, seorang penjual nasi rames keliling di daerah Sokaraja.
+Getuk basah adalah salah satu daganganya. Pada saat itu getuk yang di jual tidak lah laku, sehingga beliau memilik akal agar getuk tersebut bisa di konsumsi kembali. Kemudian getuk yang tidak habis di jual itu digorengnya dan dijual kembali.
+Ternyata getuk goreng ini sangatlah digemari oleh para pembeli.
+Kini getuk goreng bukanlah makanan yang tidak lagi terjual melainkan getuk yang sengaja dijual.
+Karena banyaknya penggemarnya, getuk goreng kini hadir dalam beberapa macam varian rasa yang menggoda selera. Jika awalnya getuk goreng hanya memiliki rasa original dari gula jawa.
+Getuk goreng kini memiliki tersaji menjadi beberapa macam varian rasa, dari rasa durian, rasa coklat, rasa nangka, rasa nanas dan lain sebagainya. Dengan banyaknya variasai rasa membuat kita menjadi lebih ketagihan untuk menikmatinya.</item>
+        <item>Nopia. Nama makanan ini sendiri sebenarnya cukup mirip dengan merek dari handphone.
+Namun tidak ada hubungan dari makanan ini dengan merek handphone yang cukup populer beberapa waktu yang lalu. Bentuk dari makanan ini sendiri adalah lonjong dan berbentuk seperti telur ayam. Dari luar, nopia berwarna putih, namun di dalamnya makanan ini memiliki isian gular merah. Beberapa nopia juga diisi dengan coklat, durian dan juga pandan.
+Anda juga bisa menemukan salah satu citarasa bawang merah yang membuatnya menjadi salah satu pilihan oleh-oleh yang berbeda.</item>
+    </string-array>
+
+
+    <string-array name="data_name_penginapan">
+        <item>Hotel Wisata Niaga Campus</item>
+        <item>Huning House</item>
+        <item>FixOn Capsule Hotel</item>
+    </string-array>
+    <string-array name="data_lat">
+        <item>-7.4238334</item>
+        <item>-7.4154713</item>
+        <item>-7.3967061</item>
+    </string-array>
+    <string-array name="data_lang">
+        <item>109.2404174</item>
+        <item>109.254695</item>
+        <item>109.2428421</item>
+    </string-array>
+    <string-array name="data_description_penginapan">
+        <item>Hotel Wisata Niaga Campus berlokasi di Dukuhbandong, Grendeng, Kecamatan Purwokerto Utara, Kabupaten Banyumas. Selain menyediakan penginapan yang nyaman, hotel ini juga terkenal dengan kafe yang buka hingga pagi.
+Wisata Niaga Kampus menyediakan tempat menginap dengan suasana yang nyaman dan harganya cukup murah, sekitar Rp250 ribu per malamnya</item>
+        <item>Huning House merupakan penginapan sederhana, tapi desain interiornya amat Instagramable. Konsepnya guest house dengan lima kamar tidur yang nyaman. Cocok dihuni untuk beramai-ramai atau bersama keluarga.
+Lokasinya berada di tengah kota, sehingga dekat dengan berbagai fasilitas umum. Huning House mematok tarif sekitar Rp600 ribuan per malam.</item>
+        <item>Lokasi FixOn Capsule Hotel berada di Jalan HR Bunyamin, Purwokerto, Purwokerto Utara, Jawa Tengah, Indonesia, 51234.Tarif menginap di FixOn Capsule Hotel mulai dari Rp 100 ribu per malam.
+        Fasilitas yang disediakan cukup lengkap, seperti area parkir kendaraan luas, kamar hotel dilengkapi bed empuk dan wifi, hingga kamar mandi bersih dilengkapi shower.
+FixOn Capsule Hotel dekat dengan Satria Stadium, Pendopo Si Panji, Alun-Alun Purwokerto, dan Purwokerto Station.
+        </item>
+    </string-array>
+    <string-array name="data_location_penginapan">
+        <item> Dukuhbandong, Grendeng, Kecamatan Purwokerto Utara, Kabupaten Banyumas</item>
+        <item> Dukuhbandong, Grendeng, Kecamatan Purwokerto Utara, Kabupaten Banyumas</item>
+        <item> Jalan HR Bunyamin, Purwokerto, Purwokerto Utara, Jawa Tengah</item>
+    </string-array>
+    <string-array name="data_photo_penginapan">
+        <item>https://cdn.idntimes.com/content-images/post/20200123/1-bfd7f511ebe370126e427f4c2db865fc.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20200123/5-8531b1e70499d13fe307701ce5619407.jpg</item>
+        <item>https://1.bp.blogspot.com/-iQ9RSF0Eyj4/XlCk02W8nGI/AAAAAAAATZQ/ANUu7VT4zN4oowE2vKfcF65fn35Vq4GXQCLcBGAsYHQ/s1600/WhatsApp%2BImage%2B2020-02-22%2Bat%2B10.46.10%2B%25281%2529.jpeg</item>
+    </string-array>
+    <string-array name="data_harga_penginapan">
+        <item>Rp. 250.000/malam</item>
+        <item>Rp. 600.000/malam</item>
+        <item>Rp. 100.000/malam</item>
+    </string-array>
+
+
+    <string name="title_activity_detail">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_detail_penginapan">ScrollingActivity</string>
+    <string name="harga_penginapan">harga penginapan</string>
+    <string name="location_penginapan">harga penginapan</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
