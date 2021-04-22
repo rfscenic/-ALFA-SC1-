@@ -15,7 +15,7 @@ class DetailKulinerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_kuliner)
-        setSupportActionBar(findViewById(R.id.toolbar))
+        setSupportActionBar(findViewById(R.id.toolbar_kuliner))
 
         val myData by getParcelableExtra<MyDataKuliner>(DetailKulinerActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.name_kuliner.toString()
@@ -25,6 +25,8 @@ class DetailKulinerActivity : AppCompatActivity() {
             .load(myData?.photo_kuliner.toString())
             .apply(RequestOptions().override(700,700))
             .into(iv_detail_photo_kuliner)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
     companion object {
         const val EXTRA_MYDATA = "extra_mydata"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "116834074096",
+    "project_id": "mas-tur",
+    "storage_bucket": "mas-tur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116834074096:android:f1cda9f88b0476a4963135",
+        "android_client_info": {
+          "package_name": "com.alfa_sc1.mastur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116834074096-tlvjual3ok5a205scbrj6lsfstoa8svv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlTlYJM2lDo09vj4vyH1fVkrzbIwr_RSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116834074096-tlvjual3ok5a205scbrj6lsfstoa8svv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Mas Tur</string>
     <string name="next">Next</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="kuliner">Kuliner</string>
+    <string name="penginapan">Penginapan</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -249,4 +252,21 @@ FixOn Capsule Hotel dekat dengan Satria Stadium, Pendopo Si Panji, Alun-Alun Pur
     <string name="harga_penginapan">harga penginapan</string>
     <string name="location_penginapan">harga penginapan</string>
     <string name="title_activity_maps">Map</string>
+    <string name="settings">Setting</string>
+    <string name="notification">Notification</string>
+    <string name="Phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="connect_using">Connect Using</string>
+    <string name="login">Login</string>
+    <string name="daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="no_telepon">No. Telepon</string>
+    <string name="password">Password</string>
+    <string name="simpan">Simpan</string>
+    <string name="logout">Logout</string>
+    <string name="lokasi">lokasi</string>
+    <string name="url">url</string>
+    <string name="submit">submit</string>
+    <string name="delete">delete</string>
 </resources>

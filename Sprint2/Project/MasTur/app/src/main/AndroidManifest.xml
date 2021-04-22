@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.alfa_sc1.mastur">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -17,7 +18,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MasTur">
+        <activity android:name=".SejarahAddUpdateActivity"></activity>
 
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,7 +41,7 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
         <activity
             android:name=".DetailPenginapanActivity"
             android:label="@string/title_activity_detail_penginapan"
@@ -45,18 +54,16 @@
             android:name=".DetailSejarahActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/Theme.MasTur.NoActionBar" />
-        <activity android:name=".PenginapanActivity" />
-        <activity android:name=".KulinerActivity" />
-        <activity android:name=".SejarahActivity" />
-        <activity android:name=".MainActivity">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+        <activity
+            android:name=".PenginapanActivity"
+            android:label="@string/penginapan" />
+        <activity
+            android:name=".KulinerActivity"
+            android:label="@string/kuliner" />
+        <activity
+            android:name=".SejarahActivity"
+            android:label="@string/sejarah" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".OnboardingActivity">
             <intent-filter>
@@ -65,6 +72,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/settings" />
     </application>
 
 </manifest>
